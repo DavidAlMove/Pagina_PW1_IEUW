@@ -4,25 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/bootstrap.css">
-    <title>Document</title>
-</head>
-<body>
-    <img src="background1.jpg" height="250" width="1750" alt="background">
-    <a href="Inicio de noticias.html" >Inicio</a>
-    <a href="Inicio de noticias.html" >Log in</a>
-    <a href="Inicio de noticias.html" >Register</a>
-    <a href="Inicio de noticias.html" >My Dashboard</a>
-    <h1 id="top">TG-NEWS</h1>
-    <form action="" method="get"></form>
-        <p>Email</p>        
-            <input type="text" name="name" id="">
 
-        <p>Password</p>       
-            <input type="password" name="pass" id="">
-            <br>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Registrate</title>
+
+
+</head>
+
+    <body background="seamless.jpg" style="background-repeat: repeat-y; background-position: right;">
+
+        <img class="img-fluid" style="width: 100%; height: 200px;" src="background1.jpg" alt="background">
+    
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a href="index.html" class="navbar-brand">
+                <img src="logomain.png" height="28" alt="CoolBrand">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="#" class="nav-item nav-link">News</a>
+                    <a href="#" class="nav-item nav-link">Messages</a>
+                    <a href="#" class="nav-item nav-link">Reports</a>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <form class="form-inline ml-auto" style="padding-right: 3rem;">
+                        <input type="text" class="form-control mr-sm-2" placeholder="Search">
+                        <button type="submit" class="btn btn-outline-light">Go!</button>
+                    </form>
+                   
+                    <a href="Login.html" class="nav-item nav-link">Login</a>
+                    <a href="Register.html" class="nav-item nav-link">Register</a>
+                </div>
+            </div>
+        </nav>
+
+
+    <br>
+    <br>
+    <img src="welcomeback.png"  alt="logo" style="width: 30%;height: 30%;" class="rounded mx-auto d-block"> 
+    <form action="" method="get"></form>
+
+        <br>
+        <br>
+        <br>
+
+
+        <p style="text-align: center; color: aliceblue;">Email</p>       
+            <input type="text" style="margin: auto; width: 300 px;" class="form-control-lg rounded mx-auto d-block" name="name" id="email" placeholder="Your@email.com">
             <br>
             <br> 
-            <button type="submit">Log In</button>
+
+        <p style="text-align: center; color: aliceblue;">Password</p>       
+        <input type="text" class="form-control-lg; rounded mx-auto d-block" name="name" id="" placeholder="Password">
+        <br>
+            <br>
+            <br> 
+            <button type="submit" class="rounded mx-auto d-block btn btn-outline-light; btn btn-light">Log In</button>
+
     </form>
 </body>
 </html>
